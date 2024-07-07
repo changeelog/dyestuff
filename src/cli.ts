@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import { ColorConverter } from "./dyestuff";
 import { ColorSpace, ColorValue, Color, RGB } from "./dyestuff";
 
 class ColorCLI {
