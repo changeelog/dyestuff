@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { ColorSpace, ColorValue, Color, RGB } from "./dyestuff";
+import { Color } from "./color";
+import { ColorSpace, ColorValue, RGB } from "./types";
 
 class ColorCLI {
   private static readonly commands: Record<string, (args: string[]) => void> = {
